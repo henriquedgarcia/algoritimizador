@@ -18,7 +18,6 @@ Inteiro inicio(){
     escreva("\n");
 }
 
-
 // funções auxiliares
 Logico estaNoHeap(Indice no){
     retorna no < tamanho_heap;
