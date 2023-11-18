@@ -2,6 +2,7 @@
 #define ALGORITMIZADOR
 
 #include <stdio.h>
+#include <string.h>
 
 // Palavras-chaves especiais
 #define estrutura struct
@@ -54,6 +55,13 @@
 #define escreva printf
 #define inicio(x) main(x)
 #define tamanho(x) sizeof(x)
+#define eLetra isalpha
+#define eLetraNumero isalnum
+#define eNumero isdigit
+#define juntaPalavras strcat
+#define comparaPalavras strcmp
+#define copiaPalavra strcpy
+#define concatenaPalavras strcat
 
 // Outros
 #define ok 0
