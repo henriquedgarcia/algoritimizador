@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 // Palavras-chaves especiais
 #define estrutura struct
